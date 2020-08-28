@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public float MoveSpeed;
+    public bool IsJumping;
+
     // Start is called before the first frame update
     void Start()
     {
